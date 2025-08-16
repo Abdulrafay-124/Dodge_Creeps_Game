@@ -38,6 +38,7 @@ height = 62.0
 [node name="Player" type="Area2D"]
 position = Vector2(217, 337)
 script = ExtResource("1_fkybt")
+speed = 300
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]

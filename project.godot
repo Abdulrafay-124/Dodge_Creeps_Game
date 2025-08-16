@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Dodge The Creeps"
-run/main_scene="uid://dub3tnwitfy7r"
+run/main_scene="uid://60fkkhabx2ry"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
 
