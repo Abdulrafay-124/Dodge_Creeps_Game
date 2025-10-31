@@ -1,5 +1,10 @@
-# Dodge the Creeps 2D assets
-
-Used by the "Your first 2D game" tutorial:
-
-https://docs.godotengine.org/en/latest/getting_started/first_2d_game/index.html
+flowchart TD
+  A[Home] --> B[Shop]
+  B --> C[Checkout]
+  C --> D{Form Valid?}
+  D -->|No| E[Show Errors]
+  D -->|Yes| F[Simulate Payment]
+  F --> G{Result}
+  G -->|Success| H[Order Confirmed]
+  G -->|Declined| I[Payment Declined]
+  G -->|Network| J[Try Again]
